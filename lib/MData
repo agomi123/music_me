@@ -1,0 +1,6 @@
+class MusicDat {
+  final String trackname, albumname, atristname;
+  final int trackid,explicit, rating;
+
+  MusicDat(this.trackid, this.trackname, this.albumname, this.atristname,this.explicit,this.rating);
+}
